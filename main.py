@@ -6,6 +6,8 @@ pd.set_option('display.max_rows', None)
 #pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', -1)
 
+# zbarimg --raw -q bar-code.jpg
+
 while True:
     inventaren = input("Въведете инвентарен номер: ")
 
